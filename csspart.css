@@ -32,6 +32,11 @@ h1 {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .content_text{
     display: flex;
     justify-content: center;
@@ -96,12 +101,25 @@ form button {
 
 .tool_bar {
     display: grid;
-    grid-template-columns: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px 150px;
     justify-content: center;
 }
 
 .tool_bar h3 {
     cursor: pointer;
+}
+
+.tool_bar a{
+    text-decoration: none;
+    color: white;
+}
+
+home {
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid;
+    border-right-color: white;
+    border-left-color: white;
 }
 
 films {
